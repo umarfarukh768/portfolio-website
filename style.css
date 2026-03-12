@@ -10,10 +10,10 @@
        /* background-color: rgb(51, 9, 84);*/
        background-image:linear-gradient(to right, rgb(148, 21, 152),rgb(20, 19, 20)) ;
         color: white;
-        padding: 18px 0;
+        padding: 10px 0;
  }
  .logo{
-    font-size: 22px;
+    font-size: 20px;
      font-weight: bold;
  }
     nav ul{
@@ -24,5 +24,28 @@
     }
     nav ul li{
         list-style: none;
-        font: size 18px;
+        font: size 17px;
+    }
+    .hero{background-color: rgb(219, 233, 235);
+        height: 65vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .hero-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-left .one{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .hero-left .two{
+        font-size: 24px;
+        font-weight: normal;
+    }
+    .bold{
+        font-weight: bold;
+        
     }
