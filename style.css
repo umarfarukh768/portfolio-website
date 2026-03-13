@@ -26,7 +26,8 @@
         list-style: none;
         font: size 17px;
     }
-    .hero{background-color: rgb(219, 233, 235);
+    .hero{
+        background-image: linear-gradient(to right, rgb(125, 241, 212), lightblue);
         height: 65vh;
         display: flex;
         justify-content: space-around;
@@ -48,4 +49,22 @@
     .bold{
         font-weight: bold;
         
+    }
+.button-container{
+    padding : 9px 0;
+}
+
+    .btn{
+        padding: 4px 6px;
+        margin: 7px 9px;
+        background-color: purple;
+        color: white;
+        border: 2px solid purple;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .hero-right img{
+        border-radius: 14px;
     }
