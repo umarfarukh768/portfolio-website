@@ -68,3 +68,31 @@
     .hero-right img{
         border-radius: 14px;
     }
+       .project-image img{
+        display: flex;
+        align-items: center;
+        
+        
+
+    }
+      .project-image img{
+       width: 50vw;
+    }
+    .project-info{
+        display: flex;
+        flex-direction: column;
+         background-image: linear-gradient(to right, rgb(170, 241, 219),black );
+        padding: 12px; 
+    }
+      .project-info .text{
+        font-size: 20px;
+        padding: 10px 0;
+        font-weight: bold;
+      }
+      .project-info p{
+        padding: 12px 0;
+      }
+
+      .row-reverse{
+        flex-direction: row-reverse;
+      }
